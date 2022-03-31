@@ -49,7 +49,7 @@ async function getTime(timezone) {
 
     //console.log(timezone);
 
-    let response = await fetch("http://worldtimeapi.org/api/timezone/" + timezone);
+    let response = await fetch("https://worldtimeapi.org/api/timezone/" + timezone);
 
     let data = await response.json();
 
