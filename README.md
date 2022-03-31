@@ -1,6 +1,6 @@
 # Frontend Mentor - Clock app
 
-https://ghangaz.github.io/clock-app/
+https://ghangaz.github.io/clock-app/ 
 
 ![Design preview for the Clock app coding challenge](./assets/preview.jpg)
 
