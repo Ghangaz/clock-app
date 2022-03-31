@@ -112,7 +112,7 @@ async function updateDOMTime(loc) {
 
     let timeNowContainer = document.querySelector(".time-now");
 
-    timeNowContainer.textContent = `${timeNow.getHours()}:${(timeNow.getMinutes() < 10) ? "0" + timeNow.getMinutes() : timeNow.getMinutes()}`;
+    timeNowContainer.textContent = `${(timeNow.getHours() == 12) ? timeNow.getHours() : timeNow.getHours() % 12}:${(timeNow.getMinutes() < 10) ? "0" + timeNow.getMinutes() : timeNow.getMinutes()}`;
 
     let period = document.querySelector(".period");
 
